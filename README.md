@@ -14,5 +14,4 @@ Repositório referente a projeto das disciplinas Linguagens de Script + Ciência
 
 
 
-
 (_Inspiração: “WASTE PROCESSING BY BEEMA - IL (Community)”_)
