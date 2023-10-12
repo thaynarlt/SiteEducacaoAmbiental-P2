@@ -232,6 +232,7 @@ header .logo {
     font-weight: 600;
     line-height: normal;
     margin-top: 0;
+    text-align: center;
 }
 
 .cards-problemas {
@@ -284,3 +285,13 @@ header .logo {
     text-align: center;
 }
 
+@media (max-width: 1029px) {
+    header nav ul {
+        flex-direction: column; /* Altera o layout para coluna */
+        align-items: center; /* Alinha os itens ao centro na direção da coluna */
+    }
+
+    header nav ul li {
+        padding: 15px 0; /* Ajuste o espaçamento entre os itens conforme necessário */
+    }
+}
