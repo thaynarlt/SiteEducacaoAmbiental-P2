@@ -11,5 +11,7 @@ const renderProblemas = (problemas) => {
       .map((problema) => createCardView(problema))
       .join('');
 };
+
+
   
 renderProblemas(problemas);

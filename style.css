@@ -37,10 +37,15 @@ header nav ul li {
     padding: 0 20px 0 20px;
 }
 
+/*nav li{
+    transition: transform 0.5s;
+    will-change: scale;
+}
+
 nav li:hover {
     transform: scale(1.1);
-    transition: 0.3s;
-}
+    color: var(--Green, #016A70);
+}*/
 
 li a, li a:visited {
     text-decoration: none;
@@ -50,22 +55,38 @@ header .logo {
     flex-grow: 1;
 }
 
-.menu-home a {
-    color: var(--Green, #016A70);
+.menu-home{
     font-family: 'Poppins';
     font-size: 20px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
     line-height: normal;
 }
 
-.item-menu a {
+.menu-home a{
     color: var(--Grey, #393E46);
+}
+
+.menu-home a:hover{
+    color: var(--Grey, #2C5B61);
+    font-weight: 600;
+}
+
+
+.item-menu {
     font-family: Poppins;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+.item-menu a {
+    color: var(--Grey, #393E46);
+}
+.item-menu a:hover {
+    color: var(--Grey, #2C5B61);
+    font-weight: 600;
 }
 
 .saiba-mais {
@@ -94,6 +115,11 @@ header .logo {
     line-height: normal;
 }
 
+.botao-saiba-mais a:hover {
+    background: #F6B74C;
+    color: var(--White, #2C5B61);
+}
+
 .abertura {
     display: flex;
     flex-direction: row;
@@ -109,6 +135,7 @@ header .logo {
     align-items: flex-start;
     flex-wrap: wrap;
     flex-basis: 37%;
+    
 }
 
 .texto-importancia h2 {
@@ -165,9 +192,13 @@ header .logo {
     text-decoration: none;
 }
 
+.texto-importancia div {
+    transition: transform 0.4s;
+    will-change: scale;
+}
+
 .texto-importancia div:hover {
-    transform: scale(1.1);
-    transition: 0.3s;
+    transform: scale(1.05);
 }
 
 .imagem-header {
@@ -213,6 +244,12 @@ header .logo {
     flex-direction: column;
     flex-wrap: wrap;
 }
+
+/*.cards:hover{
+    transition: transform 0.4s;
+    will-change: scale;
+    transform: scale(1.05);
+}*/
 
 .cards h3 {
     color: var(--Dark, #222831);
