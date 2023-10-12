@@ -15,3 +15,5 @@ Repositório referente a projeto das disciplinas Linguagens de Script + Ciência
 
 
 (_Inspiração: “WASTE PROCESSING BY BEEMA - IL (Community)”_)
+
+#### Grupo: Felipe Brito, Letícia Leite e Thayná Tolentino
