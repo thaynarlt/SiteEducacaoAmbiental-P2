@@ -1,4 +1,4 @@
-const problema = [
+const problemas = [
     {
         id: 1,
         titulo: 'Acesso à Informação',
@@ -19,4 +19,4 @@ const problema = [
     }
 ];
 
-export default problema;
+export default problemas;
