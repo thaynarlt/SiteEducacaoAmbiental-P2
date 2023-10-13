@@ -37,11 +37,6 @@ header nav ul li {
     padding: 0 20px 0 20px;
 }
 
-/* nav li:hover {
-    transform: scale(1.1);
-    transition: 0.3s;
-} */
-
 li a, li a:visited {
     text-decoration: none;
 }
@@ -49,6 +44,7 @@ li a, li a:visited {
 header .logo {
     flex-grow: 1;
 }
+
 
 .menu-home {
     font-family: 'Poppins';
@@ -63,7 +59,7 @@ header .logo {
 }
 
 .menu-home a:hover {
-    color: var(--Grey, #393E46);
+    color: var(--Grey, #2C5B61);
     font-weight: 600;
 }
 
@@ -80,7 +76,7 @@ header .logo {
 }
 
 .item-menu a:hover {
-    color: var(--Grey, #393E46);
+    color: var(--Grey, #2C5B61);
     font-weight: 600;
 }
 
@@ -310,6 +306,7 @@ header .logo {
     text-align: center;
 }
 
+
 .logos {
     display: flex;
     flex-direction: row;
@@ -410,6 +407,7 @@ footer .icones a:hover img {
     }
 }
 
+
 @media (max-width: 920px) {
     .endereco {
         flex-basis: 100%;
@@ -420,3 +418,4 @@ footer .icones a:hover img {
         padding-bottom: 10%;
     }
 }
+
