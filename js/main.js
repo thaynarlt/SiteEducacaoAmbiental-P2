@@ -12,6 +12,5 @@ const renderProblemas = (problemas) => {
       .join('');
 };
 
-
   
 renderProblemas(problemas);
