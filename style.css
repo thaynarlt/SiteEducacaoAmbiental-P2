@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 header {
     display: flex;
     flex-direction: column;
@@ -263,11 +267,22 @@ header .logo {
     justify-content: space-evenly;
 }
 
+.sombra:hover {
+    box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.5) !important; /* Sombra mais forte ao passar o mouse */
+    transition: box-shadow 0.3s ease;
+}
+
+.ilustracoes:hover {
+    box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.5); /* Sombra mais forte ao passar o mouse */
+    transition: box-shadow 0.3s ease;
+}
+
 .cards-solucoes {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    width: 70%;
 }
 
 .h3-solucoes {
@@ -406,6 +421,12 @@ footer a, footer a:visited {
 footer a:hover {
     text-decoration: underline;
     text-decoration-color: #FFF;
+}
+
+@media (max-width: 1500px) {
+    .cards-solucoes {
+        width: 90%;
+    }
 }
 
 @media (max-width: 1029px) {
