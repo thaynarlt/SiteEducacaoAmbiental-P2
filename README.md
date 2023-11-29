@@ -8,6 +8,8 @@ Repositório referente a projeto das disciplinas Linguagens de Script + Ciência
 
 
 [Acesse a página!](https://thaynarlt.github.io/SiteEducacaoAmbiental-P2/)
+
+[Repositório react-app](https://github.com/l-e-t-i-c-i-a/cursos-edamb)
 <div>
   Grupo: Felipe Brito, Letícia Leite e Thayná Tolentino
 </div>
