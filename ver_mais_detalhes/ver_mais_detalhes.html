@@ -4,6 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EDAMB.br</title>
+    <style>
+        /* Estilo adicional para destacar que o clique direito está desativado */
+        body {
+          user-select: none;
+        }
+        .no-click {
+            pointer-events: none;
+        }
+        img {
+            pointer-events: none;
+        }
+      </style>
+      <script>
+        document.addEventListener('contextmenu', function (e) {
+          e.preventDefault();
+        });
+      </script>
+        
     <link rel="shortcut icon" type="imagex/png" href="../images/logo-recic.svg">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -53,12 +71,16 @@
 
     <div class="cards">
         <h2>Nossos Cursos</h2>
-        <div id="cards-problemas" class="cards-problemas"></div>
+        <img src="../images/filtrer.svg">
     </div>
 
 
     <div class="cards">
 
+        <div class="ilustracoes">
+            <img src="../images/todos-cursos.svg">
+        </div>
+<!--
         <div id="cards-solucoes" class="cards-solucoes">
             <div class="ilustracoes">
                 <img src="../images/curso1.svg">
@@ -77,6 +99,17 @@
             </div>
 
         </div>
+                -->
+    </div>
+
+    <div class="partes">
+        <img src="../images/parte11.svg">
+        <img src="../images/parte111.svg">
+    </div>
+
+    <div class="partes">
+        <img src="../images/parte22.svg">
+        <img src="../images/parte222.svg">
     </div>
 
 
